@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+}
+form label, form select, form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+fieldset label {
+    display: inline-block;
+    margin-right: 10px;
+}
+button {
+    padding: 10px;
+    background-color: #0057b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
